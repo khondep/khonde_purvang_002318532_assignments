@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="142" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="addressline1lbl" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="ssnlbl" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                      <Component id="socialmedialinklbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="organizationlbl" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="occupationlbl" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="driverslicenselbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="driverslicensestatelbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="phonelbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="emaillbl" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="genderlbl" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                      <Component id="addressline2lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="citylbl" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                      <Component id="statelbl" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="ziplbl" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="lnamelbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="fnamelbl" min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="citytextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="addressline2textfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="gendertextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="emailtextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="phonetextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="driverlicensestatetextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="driverslicensenotextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="occupationtextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="organizationtextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="socialmedialinktextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="ssntextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="addressline1textfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="fnametextfield" alignment="0" max="32767" attributes="0"/>
+                  <Component id="statetextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="ziptextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+                  <Component id="lnametextfield" alignment="0" pref="136" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="faxnolbl" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="emergencontactlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="telephonelbl" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                  <Component id="educationlbl" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="emergencycontacttextfield" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                  <Component id="educationtextfield" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="faxnotextfield" alignment="0" max="32767" attributes="0"/>
+                      <Component id="telephonetextfield" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fnametextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="fnamelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lnamelbl" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lnametextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="educationlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="educationtextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="genderlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gendertextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emaillbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailtextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="faxnolbl" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="telephonetextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="telephonelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="faxnotextfield" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="phonelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phonetextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="emergencycontacttextfield" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="emergencontactlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="driverslicensestatelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="driverlicensestatetextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="driverslicenselbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="driverslicensenotextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="occupationlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="occupationtextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="organizationlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="organizationtextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="socialmedialinklbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="socialmedialinktextfield" alignment="1" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ssnlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ssntextfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addressline1lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addressline1textfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addressline2textfield" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="addressline2lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="citytextfield" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="citylbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="statetextfield" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="statelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ziplbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="ziptextfield" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="ssntextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="phonetextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="driverlicensestatetextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="driverslicensenotextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="occupationtextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="organizationtextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="socialmedialinktextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressline1textfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressline2textfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="citytextfield">
+    </Component>
+    <Component class="javax.swing.JLabel" name="driverslicenselbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Driver License No"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ziplbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="ZIP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="occupationlbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Occupation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lnamelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="telephonelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Telephone No"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="genderlbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Gender"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emaillbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="organizationlbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Organization"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="addressline1lbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Address Line 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="faxnolbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Fax No"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emergencycontacttextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="statetextfield">
+    </Component>
+    <Component class="javax.swing.JLabel" name="educationlbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Education"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="faxnotextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="educationtextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ziptextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="lnametextfield">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lnametextfieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="socialmedialinklbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Social media link"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="telephonetextfield">
+    </Component>
+    <Component class="javax.swing.JLabel" name="emergencontactlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emergency Contact"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fnametextfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="gendertextfield">
+    </Component>
+    <Component class="javax.swing.JLabel" name="addressline2lbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Address Line 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailtextfield">
+    </Component>
+    <Component class="javax.swing.JLabel" name="phonelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Phone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="citylbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fnamelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="driverslicensestatelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Drivers License State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="statelbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ssnlbl">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="SSN"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
